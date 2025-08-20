@@ -1,0 +1,6 @@
+import pandas as pd
+
+data = {'Name': ['Anna', 'Ben', 'Cara'], 'Score': [88, 92, 95]}
+df = pd.DataFrame(data)
+print(df)
+print("\nMean Score:", df['Score'].mean())
