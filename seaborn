@@ -1,0 +1,7 @@
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+data = {'Category': ['A', 'B', 'C'], 'Values': [5, 7, 3]}
+sns.barplot(x='Category', y='Values', data=data)
+plt.title("Bar Plot")
+plt.show()
